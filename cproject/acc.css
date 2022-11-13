@@ -700,6 +700,140 @@ li:hover{
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
+.crying{
+    margin-bottom: 30px;
+}
+
+.tring{
+    color: #666;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+    /* word-spacing: 2px; */
+}
+.tring span{
+    margin-left: 10px;
+}
+
+.tring a{
+    color: #666;
+    font-size: 12px;
+}
+
+.main{
+    width: 70%;
+    margin: auto;
+}
+
+.banner{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.banner>img{
+    width: 100%;
+}
+
+
+
+.crude{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 2.2;
+    color: #666;
+}
+.crude div{
+    font-size: 12px;
+}
+
+.crude p{
+    font-size: 12px;
+}
+.crook:hover{
+    background-color: rgb(223, 217, 217);
+    border-color: rgb(223, 217, 217);
+    color: black;
+    cursor: pointer;
+}
+
+.mino{
+/* border: 1px solid; */
+/* margin-top: 50px; */
+color: #666;
+}
+
+.one{
+    border-bottom: 1px solid #333;
+    font-family: arial,sans-serif;
+    line-height: 2.5;
+    font-size: 25px;
+    color: rgb(121, 112, 112);
+}
+.int{
+    font-size: 10px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.int>span, .into>span, .into5>span{
+    color: red;
+    margin-right: 2px;
+}
+
+.trait{
+    /* border: 1px solid; */
+    width: 40%;
+    margin: auto;
+}
+.into{
+    /* color: #666; */
+    font-size: 14px;
+}
+.trait input{
+    padding: 10px;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.rita{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#kill{
+    margin-bottom: 0px;
+}
+.into5{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.trait a{
+    color: #666;
+    font-size: 12px;
+}
+.lot{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trait button{
+    background-color: black;    
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+
+}
+.bits{
+    text-align: center;
+}
+.bits>button:hover{
+    background-color: lightgray;
+    border-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
 .lsthdr>div{
     /* border: 1px solid; */
     height: 18px;
