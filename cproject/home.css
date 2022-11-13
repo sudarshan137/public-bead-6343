@@ -1,0 +1,702 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* img:hover{
+    cursor: pointer;
+}
+* a:hover{
+    text-decoration: none;
+}
+.top-hdr{
+    /* width: 50%; */
+    display: flex;
+    margin: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    /* border: 1px solid whitesmoke; */
+    /* background-color: red; */
+    height: 40px;
+    background-color: #005699;
+
+}
+
+/* .bag{
+    margin-left: -50px;
+}
+.bag1{
+    margin-left: -20px;
+} */
+
+.tophdr{
+display: flex;
+justify-content: space-around;
+/* border: 1px solid red; */
+width: 50%;
+height: 100%;
+margin: auto;
+color: rgba(7, 76, 187, 0.697);
+align-items: center;
+padding: 5px;
+background-color: white;
+}
+
+.big{
+    font-size: 22px;
+    margin-left: 15px;
+}
+.sp{
+    margin-left: 20px;
+    margin: 10px;
+}
+.sm{
+    font-size: 8px;
+    color: rgba(7, 76, 187, 0.697);
+    font-weight: bolder;
+}
+
+.mid-hdr{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding: 5px 30px;    
+    background-color: rgba(211, 211, 211, 0.293);
+    font-size: 12px;
+    align-items: center;
+}
+.mid-hdr a{
+    margin-left: 10px;
+    color: black;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.left{
+    color: rgb(230, 15, 194);
+    font-weight: bold;
+}
+.right{
+    
+    color: rgba(7, 76, 187, 0.697);
+    font-family: Arial,sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right img{
+    margin-right: 5px;
+}
+.bot-hdr{
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.bot-hdr input{
+    height: 80%;
+    padding: 5px;
+}
+.bot-left{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 70%;
+    /* height: 40px; */
+    justify-content: end;
+    align-items: center;
+}
+.bot-right{
+    display: flex;
+    width: 30%;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+}
+.field{
+    /* this is div */
+    width: 70%;
+    /* height: 100%; */
+    /* border: 1px solid blue; */
+}
+.fld{
+/* this is fieleset */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 5px;
+}
+
+.inp{
+    /* this is input */
+    width: 85%;   
+    border: none;
+    /* background-color: red; */
+
+}
+.imgfld{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.log{
+    margin-right: 20%;
+}
+
+.lsthdr{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: rgb(56, 55, 55);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: light;
+}
+.lsthdr>div:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #005699;
+}
+
+#rd:hover{
+    border-bottom: 2px solid red;
+}
+
+.b4main{
+    text-align: center;
+    background-color: rgb(215, 234, 250);
+    padding: 10px;    
+    color: rgba(6, 61, 149, 0.697);
+    font-weight: bold;
+}
+.tdybel{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.tdy{
+    color: white;
+    background-color: red;
+    padding: 10px 0px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+}
+ .topoffers{
+    background: #f2f2f2;
+    padding-bottom: 32px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.try{
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+    letter-spacing: .005em;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 32px;
+    line-height: 2rem;
+    text-transform: none;
+    color: #333;
+    font-weight: bold;
+    padding: 32px 16px 16px;
+    position: relative;
+}
+.lto{
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+    letter-spacing: .005em;
+    font-size: 18px;
+    color: #005699;
+    margin-bottom: 8px; 
+}
+.lto1{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    letter-spacing: .005em;
+}
+.prc{
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+    letter-spacing: .005em;
+}
+
+.btn .botn{
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
+    letter-spacing: .015em;
+    line-height: 20px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #333;
+    border-color: #333;
+    box-sizing: border-box;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 32px;
+    width: 100%;
+    transition-property: background-color,border-color;
+    transition-duration: .3s;
+    transition-delay: ease;
+}
+
+.btn a{
+    
+    color: #666;
+    outline: medium none;
+    overflow: hidden;
+    text-decoration: none;
+    background: transparent;
+    margin-top: 20px;
+}
+.writcont{    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+.cry-content{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    font-size: .875rem;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    height: 200px;
+}
+.cry{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: auto hidden;
+    padding: 0px 16px;
+}
+
+.scrl-grab{
+    cursor: grab;
+}
+.cry-hard{
+    box-sizing: border-box;
+    color: #333;
+     height: 100%;
+    min-height: 136px;
+    text-align: center;
+    flex: 1;
+}
+.cryharder{
+    width: 280px;
+    margin-left: 30px;
+}
+.cont{
+    display: flex;
+    overflow: auto;
+}
+.cont::-webkit-scrollbar{
+    display: none;
+}  
+.sum{
+    width: 80%;
+    margin: auto;
+}
+.sum img{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sum2{
+    text-align: center;
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    margin-bottom: 30px;
+}
+.sum3{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 25px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.sum30 img{
+    width: 100%;
+}
+.sum30>div{
+    margin-bottom: 10px;
+}
+.sum30 a{
+    color: #333;
+}
+.sum25{
+    text-align: center;
+    margin-top: 30px;
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+}
+.sum40{
+    text-align: center;
+    margin-top: 30px;
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    color: gray;
+    line-height: 1.3;
+}
+.cont5{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 25px;
+    color: gray;
+}
+.cont5:hover{
+    cursor: pointer;
+}
+.misd{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    width: 18%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-weight: bolder;
+}
+.misd:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.cont5>div>img{
+    width: 100%;
+}
+
+.cont6{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 25px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.6;
+    color: gray;
+}
+.cont6:hover{
+    cursor: pointer;
+}
+.cont6>div>img{
+    width: 100%;
+}
+.cont6 a{
+    color: black;
+}
+
+.cont6 a:hover{
+    text-decoration: none;
+}
+.smg{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.butnis{
+    display: flex; 
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+.butnis>div{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bolder;
+}
+.lstbtn{    
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bolder;
+    /* width: 120px; */
+    width: 12%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.butnis>div:hover{
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+.lstbtn:hover{
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+.more{
+    font-family: TradeGothicLTW05-Roman,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.sum3>div>div>a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hid{
+    display: none;
+}
+
+.fuck:hover + .hid {
+    display: grid;
+    color: rebeccapurple;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50%;
+  background-color: #005699;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.insta{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
+    justify-content: space-around;
+    margin-top: 50PX;
+
+
+}
+.spc{
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.rando{
+    margin-top: 200px;    
+}
+.prick{
+    color: gray;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.belowinsta{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+}
+.belowinsta>div>img{
+    width: 100%;
+}
+
+.rnd{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.txti{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ftleft{
+    display: flex;
+    width: 30%;
+    /* border: 1px solid blue; */
+    /* height: 250px; */
+}
+
+.ftleft>div>h3{
+margin-bottom: 20px;
+line-height: 1.6;
+}
+
+.ftleft p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.ftleft input{
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+.ftleft button{
+    padding: 9px;
+    background-color: black;
+    color: white;
+}
+
+.ftright{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid green; */
+    justify-content: space-around;
+}
+
+
+
+li{
+    display: list-item;
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+    line-height: 2.5;
+    
+}
+.footer h3{
+    font-size: 12px;
+}
+
+.baap{
+    /* border: 1px solid; */
+    /* height: 300px; */
+    display: grid;
+    align-content: flex-end;
+    border-top: 2px solid lightgray;
+    margin-top: 180px;
+}
+
+.baap button:hover{
+    background-color: lightgray;
+    border-color: lightgray;
+    color: #333;
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #005699;
+}
+
+.last{    
+    font-size: 12px;
+    color: rgb(118, 113, 113);
+    /* width: 90%; */
+    margin: auto;
+    text-align: center;
+    /* margin-top: 30px; */background-color: lightgray;
+    /* margin-top: 50px; */
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    display: grid;
+
+}
+.last span{
+    word-spacing: 5px;
+    margin-right: 5px;
+    line-height: 1.8;
+}
+
+.shitme{
+    /* border: 1px solid; */
+    width: 95%;
+    margin: auto;;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
