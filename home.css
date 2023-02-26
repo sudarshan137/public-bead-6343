@@ -90,6 +90,7 @@ background-color: white;
     display: flex;
     height: 50px;
     margin-top: 10px;
+    /* border: 1px solid; */
 }
 
 .bot-hdr input{
@@ -115,7 +116,7 @@ background-color: white;
     /* this is div */
     width: 70%;
     /* height: 100%; */
-    /* border: 1px solid blue; */
+    /* border: 1px solid green; */
 }
 .fld{
 /* this is fieleset */
@@ -139,6 +140,17 @@ padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
+}
+
+.imgfld>div{
+    /* border: 1px solid cyan; */
+    width: 100%;
+    height: 100%;
+}
+.imgfld>div img{
+    width: 50%;
+    height: 100%;
 }
 
 
@@ -704,4 +716,34 @@ li:hover{
     /* border: 1px solid; */
     height: 18px;
     padding: 0px 10px;
+}
+
+
+ul li{
+    position: relative;
+    text-align: left;
+}
+ul li{
+    display: flex;
+    padding: 8px 25px;
+    color: black;
+    text-decoration: none;
+}
+.rd li:hover{
+    color: red;
+    /* background: #939393; */
+}
+.rd ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+.rd:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+.rd ul.dropdown li{
+    display: block;
 }
